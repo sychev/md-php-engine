@@ -2,5 +2,5 @@ RewriteEngine On
 RewriteRule ^([-_/a-zA-Z0-9]+)/$ index.php?page=$1
 RewriteRule ^([-_/a-zA-Z0-9]+)$ index.php?page=$1
 
-#RewriteCond %{REQUEST_FILENAME} !-f
-#RewriteRule ^(.*)\.(jpg|png|jpeg|gif)$ /image.php?image=$1.$2 [NC,L]
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^(.*)\.(jpg|png|jpeg|gif)$ /image.php?image=$1.$2 [NC,L]
