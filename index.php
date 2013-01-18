@@ -1,10 +1,37 @@
 <?php
-if (isset($_GET['page']))
-	{
-		echo("Page value is " . $_GET['page'] . ".");
-	}
-else 
-	{
-		echo("Page is not set.");
-	}
+
+function print_page_from_md($page_value = "") {
+    // check if relevant document exist
+    $page_value = rtrim($page_value, "/");
+    $content_directory = './content/';
+    $default_md_file = 'article.md';
+    if (empty($page_value)) {
+        $relevant_doc_file_name = $content_directory . $default_md_file;
+    } else {
+        $relevant_doc_file_name = $content_directory . $page_value . '/' . $default_md_file;
+    }
+    $doc_exist = file_exists($relevant_doc_file_name);
+    if($doc_exist) {
+        // open relevant document
+        $md_file_content = file_get_contents($relevant_doc_file_name);
+        if ($md_file_content != FALSE) {
+            print($md_file_content);
+            // we can read file content
+        } else {
+            print("Can't read file content.<br />");
+            // something goes wrong: we can't read file content
+        }
+    } else {
+        print("Can't find md file at " . $relevant_doc_file_name . "<br />");
+    }
+}
+
+if (isset($_GET['page'])) {
+    print("Page value is " . $_GET['page'] . ".<br />");
+    print_page_from_md($_GET['page']);
+    
+} else {
+    print("Page is not set.<br />");
+    print_page_from_md();
+}
 ?>
