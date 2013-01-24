@@ -9,8 +9,8 @@ function print_image_from_content($image_value = "") {
     } else {
         $relevant_image_file_name = $content_directory . $image_value;
     }
-    $doc_exist = file_exists($relevant_image_file_name);
-    if($doc_exist) {
+    $img_exist = file_exists($relevant_image_file_name);
+    if($img_exist) {
         // open relevant image
         $image_file_content = file_get_contents($relevant_image_file_name);
         if ($image_file_content != FALSE) {
