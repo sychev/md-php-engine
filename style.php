@@ -14,6 +14,7 @@ function print_style_file($file_name = "") {
             // open relevant image
             $file_content = file_get_contents($absolute_file_name);
             if ($file_content != FALSE) {
+                header("Content-Type: text/css");
                 // we can read file content
                 print($file_content);
             } else {
