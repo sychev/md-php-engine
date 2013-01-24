@@ -6,15 +6,18 @@ function print_style_file($file_name = "") {
     } else {
         require("settings.php");
         // print("Relative style file name is <code>" . $file_name . "</code><br />");
-        $absolute_file_name = "./themes/" . $settings_array['style']['theme'] . '/'. $file_name;
-        // print("Absolute style file name is <code>" . $absolute_file_name . "</code><br />");
+        $real_file_name = "./themes/" . $settings_array['style']['theme'] . '/'. $file_name;
+        // print("Absolute style file name is <code>" . $real_file_name . "</code><br />");
         
-        $doc_exist = file_exists($absolute_file_name);
+        $doc_exist = file_exists($real_file_name);
         if($doc_exist) {
             // open relevant image
-            $file_content = file_get_contents($absolute_file_name);
+            $file_content = file_get_contents($real_file_name);
             if ($file_content != FALSE) {
-                header("Content-Type: text/css");
+            
+                require("mime_type.php");
+                header("Content-Type: " . mime_type($real_file_name));
+
                 // we can read file content
                 print($file_content);
             } else {

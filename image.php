@@ -14,6 +14,8 @@ function print_image_from_content($image_value = "") {
         // open relevant image
         $image_file_content = file_get_contents($relevant_image_file_name);
         if ($image_file_content != FALSE) {
+            require("mime_type.php");
+            header("Content-Type: " . mime_type($real_file_name));
             print($image_file_content);
             // we can read file content
         } else {

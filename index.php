@@ -14,6 +14,8 @@ function print_page_content_with_style($md_page_content = "") {
         if ($style_file_content != FALSE) {
             // we can read style content
             $stylized_page = str_replace("<!--php-md-article-content-here-->", MarkdownExtra::defaultTransform($md_page_content), $style_file_content);
+            
+            header("Content-Type: text/html");
             print($stylized_page);
         } else {
             print("Can't read style file file at " . $style_file_name . "<br />");
