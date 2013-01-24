@@ -28,9 +28,7 @@ function print_image_from_content($image_value = "") {
 }
 
 if (isset($_GET['image'])) {
-    // print("Image value is " . $_GET['image'] . ".<br />");
     print_image_from_content($_GET['image']);
-    
 } else {
     // print("Image is not set.<br />");
     print_image_from_content();
