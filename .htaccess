@@ -1,4 +1,5 @@
 RewriteEngine On
+RewriteRule ^style/([.-_/a-zA-Z0-9]+)$ style.php?file=$1 [L]
 RewriteRule ^([-_/a-zA-Z0-9]+)([^/])$ /$1$2/ [R=301,L]
 RewriteRule ^([-_/a-zA-Z0-9]+)/$ index.php?page=$1 [L]
 

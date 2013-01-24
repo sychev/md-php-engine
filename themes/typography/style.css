@@ -1,0 +1,178 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+body {
+    line-height: 1;
+}
+ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+/* custom CSS */
+body {
+    font-family: serif;
+    /* font-size: 16px; */
+    font-size: 1em;
+    margin: 1.5em 0 3em 0;
+    background-color: #fdf6e3;
+    color: #586e75;
+}
+
+header {
+    /* section centered */
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    border-bottom: 0.375em double #657b83; /* 6px / 16px */
+    margin-bottom: 0.625em; /* 10px / 16px */
+    padding-bottom: 2em;
+    color: #657b83;
+    /* padding-bottom: -6px;
+    /*background-color: yellow;*/
+}
+
+header .main-header,
+header .second-header {
+    display: block;
+}
+
+header h3 {
+    font-size: 1em; /* 16/16 */
+    line-height: 1.5em; /* 24/16 */
+}
+
+header h1 .main-header {
+    padding: 0 0 0 0;
+    font-size: 2.25em; /* 36px / 16px */
+    line-height: 1.333333333em; /* 48px / 36px */
+    letter-spacing: 0.1em;
+/*    background-color: yellow;*/
+}
+
+header h1 .second-header {
+    font-size: 1em; /* 16px / 16px */
+    line-height: 1.5em; /* 24px / 16px */
+    /* margin-top: -0.75em; */
+    /* margin-bottom: 0.75em; */
+    letter-spacing: 0.1em;
+    font-weight: bold;
+/*    background-color: green;*/
+}
+
+section.current {
+    /* section centered */
+    margin-left: auto;
+    margin-right: auto;
+}
+
+section.current h1 {
+    padding: 0.666666667em 0 0.666666667em 0; /* 24px / 36px */
+    font-size: 2.25em; /* 36px / 16px */
+    line-height: 1.333333333em; /* 48px / 36px */
+    text-align: center;
+    color: #657b83;
+    /*background-color: yellow;*/
+}
+
+section.current p {
+    font-size: 1.125em; /* 18px / 16px */
+    line-height: 1.333333333em; /* 24px / 18px */
+    padding-bottom: 1.33333333em; /* 24px / 18px */
+    text-align: justify;
+    text-indent: 1em;
+}
+
+aside {
+    display: none;
+}
+
+/* beginning responsive width */
+
+/* Here are the basic styles for ‘stupid browsers’. For example, for mobile phones that are not of a high-end level. Pocket Internet Explorer for Windows Mobile 6.5 is the same. */
+header,
+section.current {
+    width: 95%;
+}
+
+@media only screen and (min-width: 480px) {
+/* Here are styles of more reasonable, but still of mobile devices such as Android, iPhone and so on. */
+}
+	
+@media only screen and (min-width: 768px) {
+/* Tablets in portrait mode. */
+    header,
+    section.current {
+        width: 43.75em;
+    }
+}
+ 
+@media only screen and (min-width: 1200px) {
+/* Desktop with high resolution, TV sets. */
+/* the same as previous rule */
+    aside {
+        position: relative;
+        top: 0;
+        left: 15em;
+        display: block;
+        float: right;
+        margin-left: -15em;
+        padding: 0 0 0 2em;
+        width: 13em;
+        /*background-color: white;*/
+    }
+    
+    header aside p,
+    section.current aside p {
+        font-family: sans-serif;
+        font-size: 0.6875em; /* 11px / 16px */
+        line-height: 1.090909091em; /* 12px / 11px */
+        /* font-size: 0.625em; /* 10px / 16px */
+        /* line-height: 1.2em; /* 12px / 10px */
+        /* font-size: 0.75em; /* 10px / 16px */
+        /* line-height: 1em; /* 12px / 12px */
+        padding-top: 1em; /* one line height */
+        text-align: left;
+        text-indent: 0;
+    }
+}
+ 
+/* ending css */
