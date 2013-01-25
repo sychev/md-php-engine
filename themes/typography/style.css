@@ -1,6 +1,7 @@
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
+   6, 7, 8, 9, 10, 11, 12, 14, 16, 18, 21, 24, 32, 36, 48, 72
 */
 
 html, body, div, span, applet, object, iframe,
@@ -104,6 +105,20 @@ section.current {
     margin-right: auto;
 }
 
+section.current h1,
+section.current h2,
+section.current h3,
+section.current h4,
+section.current h5,
+section.current blockquote,
+section.current pre,
+section.current code,
+section.current br,
+section.current hr,
+section.current table {
+    clear: both;
+}
+
 section.current h1 {
     padding: 0.666666667em 0 0.666666667em 0; /* 24px / 36px */
     font-size: 2.25em; /* 36px / 16px */
@@ -113,12 +128,84 @@ section.current h1 {
     /*background-color: yellow;*/
 }
 
+section.current h2 {
+    padding: 0 0 0 1em; /* 0px / 32px */
+    font-size: 2em; /* 32px / 16px */
+    line-height: 1.5em; /* 48px / 32px */
+    text-align: left;
+    color: #657b83;
+    /*background-color: blue;*/
+}
+
+section.current h3 {
+    padding: 1em 0 1em 2.5em; /* 24px / 24px */
+    font-size: 1.5em; /* 24px / 16px */
+    line-height: 1em; /* 24px / 24px */
+    text-align: left;
+    color: #657b83;
+    /*background-color: yellow;*/
+}
+
+section.current h4 {
+    padding: 0 0 0 4em; /* 0px / 21px */
+    font-size: 1.3125em; /* 21px / 16px */
+    line-height: 1.1428571em; /* 24px / 21px */
+    text-align: left;
+    color: #657b83;
+    /*background-color: blue;*/
+}
+
+section.current h5 {
+    padding: 0 0 0 6.5em; /* 0px / 18px */
+    font-size: 1.125em; /* 18px / 16px */
+    line-height: 1.3333333em; /* 24px / 18px */
+    text-align: left;
+    font-weight: bold;
+    color: #657b83;
+    /*background-color: blue;*/
+}
+
+section.current h6 {
+    padding: 0 0 0 8em; /* 0px / 18px */
+    font-size: 1.125em; /* 18px / 16px */
+    line-height: 1.3333333em; /* 24px / 18px */
+    text-align: left;
+    font-weight: normal;
+    color: #657b83;
+    /*background-color: blue;*/
+}
+
 section.current p {
     font-size: 1.125em; /* 18px / 16px */
     line-height: 1.333333333em; /* 24px / 18px */
     padding-bottom: 1.33333333em; /* 24px / 18px */
     text-align: justify;
     text-indent: 1em;
+}
+
+section.current blockquote {
+    padding-left: 0.625em; /* 10px / 16px */
+    margin-left: 2.625em; /* 42px / 16px */
+    border-left: 0.5em double #93a1a1; /* 8px / 16px */
+    margin-bottom: 1.5em; /* 24px / 16px */
+}
+
+section.current blockquote p {
+    text-indent: 0;
+    padding: 0;
+}
+
+section.current p img {
+    float: right;
+    padding: 2em 0 2em 2em;
+}
+
+em {
+    font-style: italic;
+}
+
+strong {
+    font-weight: bold;
 }
 
 aside {

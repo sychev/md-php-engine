@@ -1,24 +1,23 @@
-# Header 1 #
-## Header 2 ##
-### Header 3 ###             (Hashes on right are optional)
-#### Header 4 ####
-##### Header 5 #####
+# ќдин большой заголовок. ѕосмотрим как он будет перенесен на следующие строки #
+## Header 2 ќдин большой заголовок. ѕосмотрим как он будет перенесен на следующие строки ##
+### Header 3 ќдин большой заголовок. ѕосмотрим как он будет перенесен на следующие строки ###
+#### Header 4 ќдин большой заголовок. ѕосмотрим как он будет перенесен на следующие строки ####
+##### Header 5 ќдин большой заголовок. ѕосмотрим как он будет перенесен на следующие строки #####
+###### Header 6 ќдин большой заголовок. ѕосмотрим как он будет перенесен на следующие строки ######
  
 ## Markdown plus h2 with a custom ID ##         {#id-goes-here}
 [Link back to H2](#id-goes-here)
- 
+
 This is a paragraph, which is text surrounded by whitespace. Paragraphs can be on one 
 line (or many), and can drone on for hours.  
- 
+![picture alt](jagannath.jpg "Title is optional")     
+
 Here is a Markdown link to [Warped](http://warpedvisions.org), and a literal <http://link.com/>. 
-Now some SimpleLinks, like one to &#91;google&#93; (automagically links to are-you-
-feeling-lucky), a &#91;wiki: test&#93; link to a Wikipedia page, and a link to 
-&#91;foldoc: CPU&#93;s at foldoc.  
  
 Now some inline markup like _italics_,  **bold**, and `code()`. Note that underscores in 
-words are ignored in Markdown Extra.
- 
-![picture alt](jagannath.jpg "Title is optional")     
+words are ignored in Markdown Extra. ƒобавим сюда побольше текста, чтобы картиночка не сбивала нам сетку.
+Installation instructions for each version of the colorscheme are included in the subdirectory README files. Note that for Vim (and possibly for Mutt) you may want to clone the specific repository (for instance if you are using Pathogen). See the links at the top of this file.
+Installation instructions for each version of the colorscheme are included in the subdirectory README files. Note that for Vim (and possibly for Mutt) you may want to clone the specific repository (for instance if you are using Pathogen). See the links at the top of this file. 
  
 > Blockquotes are like quoted text in email replies
 >> And, they can be nested
