@@ -1,9 +1,9 @@
-# Один большой заголовок. Посмотрим как он будет перенесен на следующие строки #
-## Header 2 Один большой заголовок. Посмотрим как он будет перенесен на следующие строки ##
-### Header 3 Один большой заголовок. Посмотрим как он будет перенесен на следующие строки ###
-#### Header 4 Один большой заголовок. Посмотрим как он будет перенесен на следующие строки ####
-##### Header 5 Один большой заголовок. Посмотрим как он будет перенесен на следующие строки #####
-###### Header 6 Один большой заголовок. Посмотрим как он будет перенесен на следующие строки ######
+# РћРґРёРЅ Р±РѕР»СЊС€РѕР№ Р·Р°РіРѕР»РѕРІРѕРє. РџРѕСЃРјРѕС‚СЂРёРј РєР°Рє РѕРЅ Р±СѓРґРµС‚ РїРµСЂРµРЅРµСЃРµРЅ РЅР° СЃР»РµРґСѓСЋС‰РёРµ СЃС‚СЂРѕРєРё #
+## Header 2 РћРґРёРЅ Р±РѕР»СЊС€РѕР№ Р·Р°РіРѕР»РѕРІРѕРє. РџРѕСЃРјРѕС‚СЂРёРј РєР°Рє РѕРЅ Р±СѓРґРµС‚ РїРµСЂРµРЅРµСЃРµРЅ РЅР° СЃР»РµРґСѓСЋС‰РёРµ СЃС‚СЂРѕРєРё ##
+### Header 3 РћРґРёРЅ Р±РѕР»СЊС€РѕР№ Р·Р°РіРѕР»РѕРІРѕРє. РџРѕСЃРјРѕС‚СЂРёРј РєР°Рє РѕРЅ Р±СѓРґРµС‚ РїРµСЂРµРЅРµСЃРµРЅ РЅР° СЃР»РµРґСѓСЋС‰РёРµ СЃС‚СЂРѕРєРё ###
+#### Header 4 РћРґРёРЅ Р±РѕР»СЊС€РѕР№ Р·Р°РіРѕР»РѕРІРѕРє. РџРѕСЃРјРѕС‚СЂРёРј РєР°Рє РѕРЅ Р±СѓРґРµС‚ РїРµСЂРµРЅРµСЃРµРЅ РЅР° СЃР»РµРґСѓСЋС‰РёРµ СЃС‚СЂРѕРєРё ####
+##### Header 5 РћРґРёРЅ Р±РѕР»СЊС€РѕР№ Р·Р°РіРѕР»РѕРІРѕРє. РџРѕСЃРјРѕС‚СЂРёРј РєР°Рє РѕРЅ Р±СѓРґРµС‚ РїРµСЂРµРЅРµСЃРµРЅ РЅР° СЃР»РµРґСѓСЋС‰РёРµ СЃС‚СЂРѕРєРё #####
+###### Header 6 РћРґРёРЅ Р±РѕР»СЊС€РѕР№ Р·Р°РіРѕР»РѕРІРѕРє. РџРѕСЃРјРѕС‚СЂРёРј РєР°Рє РѕРЅ Р±СѓРґРµС‚ РїРµСЂРµРЅРµСЃРµРЅ РЅР° СЃР»РµРґСѓСЋС‰РёРµ СЃС‚СЂРѕРєРё ######
  
 ## Markdown plus h2 with a custom ID ##         {#id-goes-here}
 [Link back to H2](#id-goes-here)
@@ -15,7 +15,7 @@ line (or many), and can drone on for hours.
 Here is a Markdown link to [Warped](http://warpedvisions.org), and a literal <http://link.com/>. 
  
 Now some inline markup like _italics_,  **bold**, and `code()`. Note that underscores in 
-words are ignored in Markdown Extra. Добавим сюда побольше текста, чтобы картиночка не сбивала нам сетку.
+words are ignored in Markdown Extra. Р”РѕР±Р°РІРёРј СЃСЋРґР° РїРѕР±РѕР»СЊС€Рµ С‚РµРєСЃС‚Р°, С‡С‚РѕР±С‹ РєР°СЂС‚РёРЅРѕС‡РєР° РЅРµ СЃР±РёРІР°Р»Р° РЅР°Рј СЃРµС‚РєСѓ.
 Installation instructions for each version of the colorscheme are included in the subdirectory README files. Note that for Vim (and possibly for Mutt) you may want to clone the specific repository (for instance if you are using Pathogen). See the links at the top of this file.
 Installation instructions for each version of the colorscheme are included in the subdirectory README files. Note that for Vim (and possibly for Mutt) you may want to clone the specific repository (for instance if you are using Pathogen). See the links at the top of this file. 
  
