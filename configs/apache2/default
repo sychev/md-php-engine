@@ -1,0 +1,24 @@
+NameVirtualHost *:80
+<VirtualHost *:80>
+	ServerAdmin alex@sychev.com
+
+	DocumentRoot /var/httpdocs/sychev.com
+	<Directory /var/httpdocs/sychev.com>
+		Options FollowSymLinks
+		AllowOverride All
+		Order allow,deny
+		Allow from all
+		AddDefaultCharset UTF8
+	</Directory>
+
+	ErrorLog ${APACHE_LOG_DIR}/error.log
+
+	# Possible values include: debug, info, notice, warn, error, crit,
+	# alert, emerg.
+	LogLevel warn
+
+	CustomLog ${APACHE_LOG_DIR}/access.log combined
+
+</VirtualHost>
+
+# and don't forget about sudo a2enmod rewrite
