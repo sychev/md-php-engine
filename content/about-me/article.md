@@ -36,13 +36,11 @@ And now some code:
     which(is_easy) to_remember();
  
 ~~~
- 
 // Markdown extra adds un-indented code blocks too
  
 if (this_is_more_code == true && !indented) {
     // tild wrapped code blocks, also not indented
 }
- 
 ~~~
  
 Text with  
@@ -53,20 +51,15 @@ for things like poems
  
 ### Horizontal rules
  
-* * * *
-****
---------------------------
- 
- 
-&lt;div class="custom-class" markdown="1"&gt;
-This is a div wrapping some Markdown plus.  Without the DIV attribute, it ignores the 
-block. 
-&lt;/div&gt;
+* * * * * * * * * * * *
+
  
 ## Markdown plus tables ##
  
 | Header | Header | Right  |
 | ------ | ------ | -----: |
+|  Cell  |  Cell  |   $20  |
+|  Cell  |  Cell  |   $20  |
 |  Cell  |  Cell  |   $10  |
 |  Cell  |  Cell  |   $20  |
  
