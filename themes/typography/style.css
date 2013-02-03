@@ -197,7 +197,53 @@ section.current blockquote p {
 
 section.current p img {
     float: right;
-    padding: 2em 0 2em 2em;
+    padding: 1.5em 0 1.5em 1.5em;
+    margin: 0;
+    border: 0;
+}
+
+section.current ul,
+section.current ol {
+    padding-bottom: 1.5em; /* 24px / 16px */
+}
+
+section.current li {
+    font-size: 1.125em; /* 18px / 16px */
+    line-height: 1.333333333em; /* 24px / 18px */
+    text-align: justify;
+    margin: 0;
+    padding: 0;
+}
+
+section.current ul li {
+    list-style-type: circle;
+    margin-left: 2em;
+}
+
+section.current ol li {
+    list-style-type: upper-roman;
+    margin-left: 2em;
+}
+
+section.current br {
+    line-height: 1.5em; /* 24px / 16px */
+}
+
+section.current pre {
+    margin: 0; padding: 0;
+}
+
+section.current code {
+    font-family: /*monospace*/; /* uncomment this */
+}
+
+section.current pre code {
+    margin: 0; padding: 0;
+    font-family: monospace;
+    font-size: 1.5em; /* 18px / 16px */
+    line-height: 1.333333333em; /* 24px / 18px */
+    text-align: left;
+    margin-bottom: 1.333333333em; /* 24px / 18px */
 }
 
 em {

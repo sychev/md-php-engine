@@ -9,8 +9,8 @@
 [Link back to H2](#id-goes-here)
 
 This is a paragraph, which is text surrounded by whitespace. Paragraphs can be on one 
-line (or many), and can drone on for hours.  
-![picture alt](jagannath.jpg "Title is optional")     
+line (or many), and can drone on for hours.
+<!-- ![picture alt](jagannath.jpg "Title is optional") -->
 
 Here is a Markdown link to [Warped](http://warpedvisions.org), and a literal <http://link.com/>. 
  
