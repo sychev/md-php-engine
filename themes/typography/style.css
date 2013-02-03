@@ -245,8 +245,10 @@ section.current pre {
     margin: 0; padding: 0;
 }
 
-section.current code {
-    font-family: /*monospace*/; /* uncomment this */
+section.current p code {
+    font-family: monospace;
+    line-height: 1.333333333em; /* 24px / 18px */
+    display: inline;    
 }
 
 section.current pre code {
