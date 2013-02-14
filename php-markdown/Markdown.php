@@ -10,14 +10,13 @@
 # Copyright (c) 2004-2006 John Gruber  
 # <http://daringfireball.net/projects/markdown/>
 #
-namespace michelf;
 
 #
 # The following constants are deprecated: avoid using them, they'll disappear
 # soon.
 #
 # You can get the parser's version using the constant inside of the parser
-# class: \michelf\Markdown::MARKDOWN_VERSION.
+# class: Markdown::MARKDOWN_VERSION.
 #
 
 const  MARKDOWNLIB_VERSION  =  "1.3-beta1";  # Sun 13 Jan 2013
@@ -33,7 +32,7 @@ class Markdown {
 
 	### Version ###
 
-	const  MARKDOWN_VERSION  = \michelf\MARKDOWN_VERSION;
+	const  MARKDOWN_VERSION  = MARKDOWNEXTRA_VERSION;
 
 	### Simple Function Interface ###
 
@@ -1531,12 +1530,12 @@ class Markdown {
 # Currently the implementation of of Extra resides here in this temporary class.
 # This makes it easier to propagate the changes between the three different
 # packaging styles of PHP Markdown. When this issue is resolved, this
-# MarkdownExtra_TmpImpl class here will disappear and \michelf\MarkdownExtra
-# will contain the code. So please use \michelf\MarkdownExtra and ignore this
+# MarkdownExtra_TmpImpl class here will disappear and MarkdownExtra
+# will contain the code. So please use MarkdownExtra and ignore this
 # one.
 #
 
-class _MarkdownExtra_TmpImpl extends \michelf\Markdown {
+class _MarkdownExtra_TmpImpl extends Markdown {
 
 	### Configuration Variables ###
 
@@ -2803,5 +2802,17 @@ class _MarkdownExtra_TmpImpl extends \michelf\Markdown {
 
 }
 
+class MarkdownExtra extends _MarkdownExtra_TmpImpl {
+
+	### Version ###
+
+	const  MARKDOWNEXTRA_VERSION  = MARKDOWNEXTRA_VERSION;
+
+	### Parser Implementation ###
+
+	# Temporarily, the implemenation is in the _MarkdownExtra_TmpImpl class.
+	# See note above.
+
+}
 
 ?>

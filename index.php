@@ -1,5 +1,4 @@
 <?php
-    use \Michelf\MarkdownExtra;
 
 function string_starts_with($haystack, $needle) {
     $pos = strpos($haystack, $needle);
@@ -12,7 +11,6 @@ function string_starts_with($haystack, $needle) {
 function print_page_content_with_style($md_page_content = "") {
     require("settings.php");
     include("php-markdown/Markdown.php");
-    include("php-markdown/MarkdownExtra.php");
     
     $template_file_name = "index.html";
     
