@@ -1,1 +1,10 @@
-<p>Hello World. This is the content of main page. Also we have <a href="/about-me">about me</a> testing page.</p>
+# What do I have here #
+
+Hello, I'm Alex Sychev, programmer from Russia. I'm the author of some applications:
+
+* [Catlooking](http://catlooking.com/)&nbsp;&mdash; inspirational text editor for writers;
+* [owlboxer](http://code.google.com/p/owlboxer/)&nbsp;&mdash; editor for [tesseract](http://code.google.com/p/tesseract-ocr/) box files.
+
+You can contact me by mail: [alex@sychev.com](mailto:alex@sychev.com).
+
+[Русская версия сайта](/ru/).
