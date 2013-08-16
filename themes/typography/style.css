@@ -179,7 +179,7 @@ section.current p {
     font-size: 1.125em; /* 18px / 16px */
     line-height: 1.333333333em; /* 24px / 18px */
     padding-bottom: 1.33333333em; /* 24px / 18px */
-    text-align: justify;
+    text-align: left;
     text-indent: 1em;
 }
 
@@ -213,7 +213,7 @@ section.current dd,
 section.current dt {
     font-size: 1.125em; /* 18px / 16px */
     line-height: 1.333333333em; /* 24px / 18px */
-    text-align: justify;
+    text-align: left;
     margin: 0;
     padding: 0;
 }
