@@ -99,7 +99,8 @@ header h1 .second-header {
 /*    background-color: green;*/
 }
 
-section.current {
+section.current,
+footer {
     /* section centered */
     margin-left: auto;
     margin-right: auto;
@@ -303,7 +304,8 @@ aside {
 
 /* Here are the basic styles for ‘stupid browsers’. For example, for mobile phones that are not of a high-end level. Pocket Internet Explorer for Windows Mobile 6.5 is the same. */
 header,
-section.current {
+section.current,
+footer {
     width: 95%;
 }
 
@@ -314,7 +316,8 @@ section.current {
 @media only screen and (min-width: 768px) {
 /* Tablets in portrait mode. */
     header,
-    section.current {
+    section.current,
+    footer {
         width: 43.75em;
     }
 }
