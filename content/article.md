@@ -8,5 +8,3 @@ Hello, I'm Alex Sychev, programmer from Russia. I'm the author of some applicati
 This website works on small and fast [md-php-engine](https://github.com/sychev/md-php-engine).
 
 You can contact me by mail: [alex@sychev.com](mailto:alex@sychev.com).
-
-[Русская версия сайта](/ru/).

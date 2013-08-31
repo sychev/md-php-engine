@@ -11,8 +11,6 @@
 
 Основное средство связи со мной — это электронная почта [alex@sychev.com](mailto:alex@sychev.com).
 
-[English version of this website](/)
-
 ## Для себя
 * [Список проектов, которые стоит поддержать + _ссылки на будущее_](/ru/dont-forget-to-donate/)
-* [Как проводить встречи для подписи ключей GnuPG](/ru/pgp-key-signing-party/)
+* [Кирпичики](/ru/bricks/) — штуки, которые я записываю, когда учусь.
