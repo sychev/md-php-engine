@@ -5,6 +5,7 @@ function mime_type($filename) {
     $mime_types = array(
 
         'txt' => 'text/plain',
+        'asc' => 'text/plain',
         'htm' => 'text/html',
         'html' => 'text/html',
         'php' => 'text/html',
