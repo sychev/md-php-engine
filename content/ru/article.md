@@ -9,7 +9,7 @@
 * [Перевод визуальной справки git.](http://marklodato.github.io/visual-git-guide/index-ru.html)
 * [php-md-engine](https://github.com/sychev/md-php-engine)&nbsp;— легкий движок, который генерирует сайт на основе [markdown](http://ru.wikipedia.org/wiki/Markdown) документов. На нём работает этот сайт.
 
-Основное средство связи со мной — это электронная почта [alex@sychev.com](mailto:alex@sychev.com).
+Основное средство связи со мной — это электронная почта [alex@sychev.com](mailto:alex@sychev.com). Для шифрования сообщений есть мой [PGP публичный ключ](Alex-Sychev-alex@sychev.com-(0x2CB916DA).asc).
 
 ## Для себя
 * [Список проектов, которые стоит поддержать + _ссылки на будущее_](/ru/dont-forget-to-donate/)
