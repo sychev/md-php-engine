@@ -6,4 +6,4 @@ RewriteRule ^([-_/a-zA-Z0-9]+)([^/])$ /$1$2/ [R=301,L]
 RewriteRule ^([-_/a-zA-Z0-9]+)/$ index.php?page=$1 [L]
 
 RewriteCond %{REQUEST_FILENAME} !-f
-RewriteRule ^(.*)\.(jpg|png|jpeg|gif|zip|asc)$ /file.php?file=$1.$2 [NC,L]
+RewriteRule ^(.*)\.(txt|asc|htm|html|php|css|js|json|xml|swf|flv|png|jpe|jpeg|jpg|gif|bmp|ico|tiff|tif|svg|svgz|zip|rar|exe|msi|cab|mp3|qt|mov|pdf|psd|ai|eps|ps|doc|rtf|xls|ppt|odt|ods)$ /file.php?file=$1.$2 [NC,L]

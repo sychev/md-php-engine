@@ -6,6 +6,7 @@ function print_file_from_content($file_value = "") {
     if (empty($file_value)) {
         // todo: make here 404 file to display in not found content file;
         header('HTTP/1.0 404 Not Found');
+        print("404: Not found file $file_value");
     } else {
         $relevant_file_name = $content_directory . $file_value;
     }
@@ -26,6 +27,7 @@ function print_file_from_content($file_value = "") {
     } else {
         // todo: make here 404 file to display in not found content file;
         header('HTTP/1.0 404 Not Found');
+        print("404: Not found file $relevant_file_name");
     }
 }
 
